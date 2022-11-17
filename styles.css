@@ -1,0 +1,151 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+font-family: 'Allerta Stencil', sans-serif;
+font-family: 'Fasthand', cursive;
+font-family: 'Mina', sans-serif;
+
+PLATINUM: #dfe6e5
+DARK PURPLE: #210a2a
+BLUE VIOLET: #7e3ccb
+PALATINATE PURPLE: #5e2754
+MIDDLE PURPLE: #cf8cc3
+DARK SIENNA: #3e1b1d
+
+*/
+
+
+body {
+    margin: 0;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    background-image: url("images/eindhoven_skyline.jpg");
+    background-size: cover;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid #3e1b1d;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+#activities-main {
+    padding: 20px 0 40px 0;
+    
+}
+
+
+
+h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 80px;
+    margin-bottom: 0;
+    padding-top: 60px;
+}
+
+h2 {
+    font-family: 'Fasthand', cursive;
+    font-size: 65px;
+    margin-top: 0;
+}
+
+h1, h2 {
+    color: #210a2a;
+    text-shadow: 0 0 8px #dfe6e5;
+}
+
+h3, h4, p {
+    font-family: 'Mina', sans-serif; 
+}
+
+#below-hero {
+    background: linear-gradient(#cf8cc3, #5e2754);
+}
+
+#hero-h3 {
+    text-align: center;
+    color: #210a2a;
+    text-shadow: 0 0 8px #dfe6e5;
+}
+
+.activities-img {
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #3e1b1d;
+}
+
+#guide {
+    padding-bottom: 40px;
+}
+
+.card {
+    width: 400px;
+    background: #e0b8ba;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    border: 2px solid #3e1b1d;
+    margin-top: 80px;
+}
+
+.card-text {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.img-div {
+    width: 250px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.gallery-img {
+    width: 400px;
+    border: 2px solid #3e1b1d;
+    border-radius: 5px;
+}
+
+/* Floaty text on images */
+
+.title {
+    display: none;
+    position: relative;
+    text-align: left;
+    width: 300px;
+    top: -130px;
+    left: 20px;
+    background: #210a2a;
+    color: #dfe6e5;
+    padding: 5px 10px;
+    opacity: 0.7;
+}
+
+.content-img:hover div.title {
+    display: block;
+    margin-bottom: -130px;
+}
+
